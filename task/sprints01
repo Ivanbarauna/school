@@ -1,3 +1,16 @@
+# Tasks01
+
+# Crie um programa que:
+# Peça dois números ao usuário Mostre:
+# A soma
+# A subtração
+# A multiplicação
+# A divisão
+
+# Crie um programa que:
+# Peça um número inteiro
+# Mostre o dobro, o triplo e a metade desse número
+
 #TAKS1
 
 number1 = int(input("Digite o número 1: "))
