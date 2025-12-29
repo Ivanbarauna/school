@@ -1,21 +1,14 @@
-a = 1
-b = 2
+#TAKS1
 
-# aplicações contextuais.add()
-soma = a % b
-print(soma)
+number1 = int(input("Digite o número 1: "))
+number2 = float(input("Digite o número 2: "))
 
-site = 10
-usuarios = 19
+soma = number1 + number2
+subtracao = number1 / number2
+multiplica = number1 * number2
+divis = number1 - number2
 
-if usuarios >= site : print('Você pode acessar meu site.')
-else: print('Você não tem a idade necessária.')
-
-site = 18 
-usuario = float(input("Digite a sua idade: "))
-
-if usuario >= site : print("Acesso Liberado!")
-elif usuario <= 5 : print("A Idade avançou!")
-elif site != usuario : print("Opa você errou o número da sorte")
-elif site == usuario : print("Cara você é uma cara de sorte.")
-else: print("Mano tu é um cara de sorte, não acertou nemhuma. SLK")
+print("Soma:", soma)
+print("Subtração:", subtracao)
+print("Multiplicação:", multiplica)
+print("Divisão:", divis)
