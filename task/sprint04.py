@@ -7,13 +7,14 @@
 number1 = int(input("Digite o número 1:"))
 number2 = int(input("Digite o nùmero 1:"))
 
-# if number1 % 2 == 0 and number2 % 2 == 0:
-#     resultado = number1 * number2
-#     print(f"Ambos são pares, e o resultado da multiplicação é: {resultado}")
-# else: 
-#     resultado = number1 + number2
-#     print(f"Há números impares. O Resultado soma um total de: {resultado}, ")
+ if number1 % 2 == 0 and number2 % 2 == 0:
+     resultado = number1 * number2
+     print(f"Ambos são pares, e o resultado da multiplicação é: {resultado}")
+ else: 
+     resultado = number1 + number2
+     print(f"Há números impares. O Resultado soma um total de: {resultado}, ")
 
-print(f"Resultado: {number1 * number2 if number1 % 2 == 0 and number2 % 2 == 0 else number1 + number2}")
+
+
 
 
